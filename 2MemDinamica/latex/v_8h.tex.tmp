@@ -1,0 +1,55 @@
+\hypertarget{v_8h}{}\doxysection{v.\+h File Reference}
+\label{v_8h}\index{v.h@{v.h}}
+
+
+Ejemplo de como reservar un vector.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \mbox{\hyperlink{v_8h_a5195dfcb4e1f9da5c07f781be326439d}{reservaV}} (int n)
+\begin{DoxyCompactList}\small\item\em Funcion que reserva memoria para un vector dinamico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ejemplo de como reservar un vector. 
+
+\begin{DoxyAuthor}{Author}
+Francis Jurado Erencia 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+18/04/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+Lo siguiente son las funciones que he utilizado, en este caso solo 1 \begin{DoxyItemize}
+\item reservaV \end{DoxyItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{v_8h_a5195dfcb4e1f9da5c07f781be326439d}\label{v_8h_a5195dfcb4e1f9da5c07f781be326439d}} 
+\index{v.h@{v.h}!reservaV@{reservaV}}
+\index{reservaV@{reservaV}!v.h@{v.h}}
+\doxysubsubsection{\texorpdfstring{reservaV()}{reservaV()}}
+{\footnotesize\ttfamily int $\ast$ reservaV (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Funcion que reserva memoria para un vector dinamico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Es el numero de bytes que se reservan \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna la memoria reservada sin inicializar 
+\end{DoxyReturn}
+
+
+Definition at line 5 of file v.\+c.
+
